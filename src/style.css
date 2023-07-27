@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0; 
+}
+.navbar{
+    width:100%;
+    background-color: black;
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    padding:10px;
+    margin:5px;
+}
+/* .navbar a:hover{
+    background-color: rgb(255, 146, 127);
+} */
+.navbar .active{
+color:tomato;
+border: 1px solid white;
+}
+.products{
+    background-color: aqua;
+    margin:10px;
+    width:400px;
+    text-align: center;
+}
+.products img{
+    width:400px;
+    height: 400px;
+    object-fit: cover;
+}
+.flexDiv{
+    display: flex;
+    justify-content:space-between;
+}
+button{
+    font-size:24px;
+    width:100px;
+    margin:10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
